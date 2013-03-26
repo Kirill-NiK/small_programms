@@ -4,10 +4,13 @@
 #include <QFile>
 #include <QRegExp>
 #include <QtDebug>
+#include <QTime>
 
 unsigned int totalTestingFunCount;
 unsigned int totalVirtualCount;
 unsigned int totalDocumentedCount;
+
+QStringList fillIgnoreFiles;
 
 QString commentFreeString(QString str)
 {
@@ -67,17 +70,51 @@ void totalFunctionCount(QString dir)
 	qDebug() << dir << "\ntesting: " << totalTestingFunCount << "\n";
 	for (int i = 0; i < dirList.length(); ++i)
 	{
-		if (dirList.at(i) != "thirdparty") {
-			totalFunctionCount(dir + dirList.at(i) + "/");
+		bool isMatch = false;
+		for (int j = 0; j < fillIgnoreFiles.length(); ++j)
+		{
+			QRegExp exReg(".*" + fillIgnoreFiles.at(j) + ".*");
+			//exReg.setMinimal(true);
+			if (exReg.exactMatch(dirList.at(i))) {
+				isMatch = true;
+				break;
+			}
 		}
+		if (isMatch) {
+			break;
+		}
+		totalFunctionCount(dir + dirList.at(i) + "/");
+	}
+}
+
+void fillIgnoreFiles()
+{
+	QFile file("~files.txt");
+	if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+		return;
+	}
+
+	QTextStream in(&file);
+	while (!in.atEnd())
+	{
+		QString line = in.readLine();
+		fillIgnoreFiles.append(line);
 	}
 }
 
 int main(int argc, char *argv[])
 {
+	QTime time;
+	time.start();
+
+	fillIgnoreFiles();
+	// without interface methods
 	totalFunctionCount(QString("D:/QReal/qreal/"));
 	qDebug() << "virtual: " << totalVirtualCount << "\n";
 	qDebug() << "total: " << totalVirtualCount + totalTestingFunCount << "\n";
 	qDebug() << "documented: " << totalDocumentedCount << "\n";
+
+	qDebug("time of execution: %d ms", time.elapsed());
+
 	return 0;
 }
