@@ -1,0 +1,383 @@
+D:/QReal/saha/qreal/
+
+		testing: 2521
+		virtual: 788
+		total: 3309
+		documented: 213
+
+
+ignored pathes:
+thirdparty
+D:/QReal/qreal/qrutils/metamodelGeneratorSupport.h
+qrgui/dialogs
+----------
+
+D:/QReal/saha/qreal/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/installer/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/additionsEditor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ains/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ains/editors/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ains/editors/ainsEditor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ains/editors/ainsEditor/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ains/editors/databaseEditor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ains/editors/databaseEditor/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ains/editors/usecaseDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ains/editors/usecaseDiagram/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ains/generators/
+	testing methods: 2	documented: 0
+D:/QReal/saha/qreal/plugins/ains/generators/databaseSchemeGenerator/
+	testing methods: 9	documented: 0
+D:/QReal/saha/qreal/plugins/android/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/android/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/blockDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/blockDiagram/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/bpel/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/bpel/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/commonMetamodels/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/editorsSdk/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/exterminatus/
+	testing methods: 5	documented: 0
+D:/QReal/saha/qreal/plugins/hascol/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/hascol/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/metaEditor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/metaEditor/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/network/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/network/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/orthodoxEditor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/parallel/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/parallel/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/requirements/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/requirements/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/doc/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/doc/html/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/doc/html/pics/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/doc/tex/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/generated/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/generated/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/images/iconset1/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/images/iconset1/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/images/iconset2/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/images/iconset2/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/images/iconset3/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/images/iconset3/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/images/iconset4/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/images/iconset4/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/Container/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/Inheritance/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEditorDiagramNode/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntity_Attribute/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityAssociation/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityEdge/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityEnum/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityImport/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityNode/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityPossibleEdge/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityValue/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetamodelDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/Container/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/Inheritance/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEditorDiagramNode/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntity_Attribute/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityAssociation/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityEdge/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityEnum/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityImport/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityNode/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityPossibleEdge/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityValue/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetamodelDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/ROOT_ID/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/ROOT_ID/ROOT_ID/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/editor/metamodel/save/tree/logical/ROOT_ID/ROOT_ID/ROOT_ID/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/
+	testing methods: 53	documented: 3
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/
+	testing methods: 39	documented: 0
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/blocks/
+	testing methods: 63	documented: 0
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/d2RobotModel/
+	testing methods: 154	documented: 33
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/robotCommunication/
+	testing methods: 59	documented: 8
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/
+	testing methods: 30	documented: 4
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/brickImplementations/
+	testing methods: 4	documented: 0
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/motorImplementations/
+	testing methods: 6	documented: 0
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/sensorImplementations/
+	testing methods: 29	documented: 0
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/robotParts/
+	testing methods: 44	documented: 1
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/icons/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/icons/preferences/
+	testing methods: 0	documented: 0
+~D:/QReal/saha/qreal/plugins/robots/thirdparty/
+D:/QReal/saha/qreal/plugins/testEditor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ubiq/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ubiq/ubiqEditor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ubiq/ubiqEditor/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ubiq/ubiqEditor/images/iconset1/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ubiq/ubiqEditor/images/iconset1/images/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ubiq/ubiqGenerator/
+	testing methods: 50	documented: 78
+D:/QReal/saha/qreal/plugins/ubiq/ubiqGenerator/templates/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/ubiq/ubiqGenerator/templates/utils/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlActivityDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlActivityDiagram/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlClassDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlClassDiagram/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlCommunicationDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlCommunicationDiagram/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlComponentDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlComponentDiagram/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlDeploymentDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlDeploymentDiagram/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlPackageDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlPackageDiagram/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlSequenceDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlSequenceDiagram/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlStateMachinesDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlStateMachinesDiagram/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlTimingDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlTimingDiagram/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlUseCaseDiagram/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/plugins/umlUseCaseDiagram/editor/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/
+	testing methods: 0	documented: 0
+~D:/QReal/saha/qreal/qrgui/dialogs/
+D:/QReal/saha/qreal/qrgui/editorPluginInterface/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/csharp/
+	testing methods: 32	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/csharp/algorithm/
+	testing methods: 8	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/editorGenerator/
+	testing methods: 27	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/embox/
+	testing methods: 19	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/hascol/
+	testing methods: 16	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/java/
+	testing methods: 39	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/nxt-tools/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/nxt-tools/linux/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/nxt-tools/windows/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/nxtOSEK/
+	testing methods: 34	documented: 11
+D:/QReal/saha/qreal/qrgui/generators/nxtOSEK/templates/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/generators/xmi/
+	testing methods: 21	documented: 0
+D:/QReal/saha/qreal/qrgui/icons/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/icons/preferences/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/interpreters/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/interpreters/visualDebugger/
+	testing methods: 54	documented: 0
+D:/QReal/saha/qreal/qrgui/mainwindow/
+	testing methods: 234	documented: 24
+D:/QReal/saha/qreal/qrgui/mainwindow/shapeEdit/
+	testing methods: 210	documented: 0
+D:/QReal/saha/qreal/qrgui/models/
+	testing methods: 86	documented: 0
+D:/QReal/saha/qreal/qrgui/models/details/
+	testing methods: 47	documented: 1
+D:/QReal/saha/qreal/qrgui/models/details/modelsImplementation/
+	testing methods: 43	documented: 2
+D:/QReal/saha/qreal/qrgui/parsers/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/parsers/hascol/
+	testing methods: 15	documented: 0
+D:/QReal/saha/qreal/qrgui/parsers/xml/
+	testing methods: 54	documented: 0
+D:/QReal/saha/qreal/qrgui/pluginManager/
+	testing methods: 44	documented: 4
+D:/QReal/saha/qreal/qrgui/textEditor/
+	testing methods: 10	documented: 0
+~D:/QReal/saha/qreal/qrgui/thirdparty/
+D:/QReal/saha/qreal/qrgui/toolPluginInterface/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/toolPluginInterface/usedInterfaces/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/toolPluginInterface/usedInterfaces/details/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/umllib/
+	testing methods: 181	documented: 24
+D:/QReal/saha/qreal/qrgui/umllib/assistants/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/umllib/assistants/edges/
+	testing methods: 23	documented: 0
+D:/QReal/saha/qreal/qrgui/umllib/embedded/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrgui/umllib/embedded/linkers/
+	testing methods: 12	documented: 0
+D:/QReal/saha/qreal/qrgui/view/
+	testing methods: 129	documented: 12
+D:/QReal/saha/qreal/qrgui/view/gestures/
+	testing methods: 54	documented: 0
+D:/QReal/saha/qreal/qrkernel/
+	testing methods: 50	documented: 1
+D:/QReal/saha/qreal/qrkernel/exception/
+	testing methods: 2	documented: 0
+D:/QReal/saha/qreal/qrmc/
+	testing methods: 76	documented: 0
+D:/QReal/saha/qreal/qrmc/classes/
+	testing methods: 65	documented: 0
+D:/QReal/saha/qreal/qrmc/plugins/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrmc/templates/
+	testing methods: 0	documented: 0
+D:/QReal/saha/qreal/qrmc/utils/
+	testing methods: 2	documented: 0
+D:/QReal/saha/qreal/qrrepo/
+	testing methods: 4	documented: 0
+D:/QReal/saha/qreal/qrrepo/private/
+	testing methods: 67	documented: 4
+D:/QReal/saha/qreal/qrrepo/private/classes/
+	testing methods: 25	documented: 1
+D:/QReal/saha/qreal/qrutils/
+	testing methods: 7	documented: 0
+D:/QReal/saha/qreal/qrutils/expressionsParser/
+	testing methods: 50	documented: 0
+D:/QReal/saha/qreal/qrutils/graphicsUtils/
+	testing methods: 84	documented: 0
+D:/QReal/saha/qreal/qrxc/
+	testing methods: 150	documented: 2
+D:/QReal/saha/qreal/umlDocumentation/
+	testing methods: 0	documented: 0
