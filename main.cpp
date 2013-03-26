@@ -10,7 +10,7 @@ unsigned int totalTestingFunCount;
 unsigned int totalVirtualCount;
 unsigned int totalDocumentedCount;
 
-QStringList fillIgnoreFiles;
+QStringList ignoreFiles;
 
 QString commentFreeString(QString str)
 {
@@ -71,12 +71,13 @@ void totalFunctionCount(QString dir)
 	for (int i = 0; i < dirList.length(); ++i)
 	{
 		bool isMatch = false;
-		for (int j = 0; j < fillIgnoreFiles.length(); ++j)
+		for (int j = 0; j < ignoreFiles.length(); ++j)
 		{
-			QRegExp exReg(".*" + fillIgnoreFiles.at(j) + ".*");
+			QRegExp exReg(".*" + ignoreFiles.at(j) + ".*");
 			//exReg.setMinimal(true);
 			if (exReg.exactMatch(dirList.at(i))) {
 				isMatch = true;
+				qDebug() << "!!!" << dir + dirList.at(i) + "/";
 				break;
 			}
 		}
@@ -98,8 +99,9 @@ void fillIgnoreFiles()
 	while (!in.atEnd())
 	{
 		QString line = in.readLine();
-		fillIgnoreFiles.append(line);
+		ignoreFiles.append(line);
 	}
+	qDebug() << ignoreFiles;
 }
 
 int main(int argc, char *argv[])
