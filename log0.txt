@@ -3,7 +3,7 @@ D:/QReal/qreal/
 		testing: 3211
 		virtual: 943
 		total: 4154
-		documented: 913
+		documented: 364
 
 
 ignored pathes:
@@ -51,13 +51,13 @@ D:/QReal/qreal/plugins/blockDiagram/
 D:/QReal/qreal/plugins/blockDiagram/editor/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/blockDiagram/visualDebugSupport/
-	testing methods: 25	documented: 26
+	testing methods: 25	documented: 17
 D:/QReal/qreal/plugins/blockDiagram/visualDebugSupport/icons/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/blockDiagram/visualDebugSupport/icons/preferences/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/blockDiagram/visualDebugSupport/interpreter/
-	testing methods: 56	documented: 30
+	testing methods: 56	documented: 21
 D:/QReal/qreal/plugins/bpel/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/bpel/editor/
@@ -75,19 +75,19 @@ D:/QReal/qreal/plugins/dragonDiagram/editor/
 D:/QReal/qreal/plugins/editorsSdk/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/exterminatus/
-	testing methods: 2	documented: 3
+	testing methods: 2	documented: 1
 D:/QReal/qreal/plugins/hascol/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/hascol/editor/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/hascol/hascolSupport/
-	testing methods: 34	documented: 110
+	testing methods: 34	documented: 5
 D:/QReal/qreal/plugins/metaEditor/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/metaEditor/editor/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/metaEditor/metaEditorSupport/
-	testing methods: 92	documented: 25
+	testing methods: 92	documented: 5
 D:/QReal/qreal/plugins/metaEditor/metaEditorSupport/icons/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/network/
@@ -113,7 +113,7 @@ D:/QReal/qreal/plugins/refactoring/editor/images/iconset1/images/
 D:/QReal/qreal/plugins/refactoring/refactoringExamples/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/refactoring/refactoringSupport/
-	testing methods: 92	documented: 44
+	testing methods: 92	documented: 8
 D:/QReal/qreal/plugins/refactoring/refactoringSupport/icons/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/refactoring/refactoringSupport/icons/preferences/
@@ -241,7 +241,7 @@ D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/ROOT_ID/ROOT_ID
 D:/QReal/qreal/plugins/robots/examples/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/robots/robotsGenerator/
-	testing methods: 6	documented: 20
+	testing methods: 6	documented: 3
 D:/QReal/qreal/plugins/robots/robotsGenerator/nxt-tools/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/robots/robotsGenerator/nxt-tools/linux/
@@ -249,9 +249,9 @@ D:/QReal/qreal/plugins/robots/robotsGenerator/nxt-tools/linux/
 D:/QReal/qreal/plugins/robots/robotsGenerator/nxt-tools/windows/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/robots/robotsGenerator/nxtOSEK/
-	testing methods: 47	documented: 11
+	testing methods: 47	documented: 2
 D:/QReal/qreal/plugins/robots/robotsGenerator/nxtOSEK/generators/
-	testing methods: 15	documented: 8
+	testing methods: 15	documented: 0
 D:/QReal/qreal/plugins/robots/robotsGenerator/nxtOSEK/generators/simpleElements/
 	testing methods: 25	documented: 0
 D:/QReal/qreal/plugins/robots/robotsGenerator/nxtOSEK/templates/
@@ -259,17 +259,17 @@ D:/QReal/qreal/plugins/robots/robotsGenerator/nxtOSEK/templates/
 D:/QReal/qreal/plugins/robots/robotsGenerator/nxtOSEK/templates/balancer/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/robots/robotsInterpreter/
-	testing methods: 60	documented: 31
+	testing methods: 60	documented: 6
 D:/QReal/qreal/plugins/robots/robotsInterpreter/details/
 	testing methods: 39	documented: 0
 D:/QReal/qreal/plugins/robots/robotsInterpreter/details/blocks/
 	testing methods: 69	documented: 0
 D:/QReal/qreal/plugins/robots/robotsInterpreter/details/d2RobotModel/
-	testing methods: 177	documented: 40
+	testing methods: 177	documented: 33
 D:/QReal/qreal/plugins/robots/robotsInterpreter/details/robotCommunication/
-	testing methods: 70	documented: 13
+	testing methods: 70	documented: 5
 D:/QReal/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/
-	testing methods: 32	documented: 6
+	testing methods: 32	documented: 2
 D:/QReal/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/brickImplementations/
 	testing methods: 4	documented: 0
 D:/QReal/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/motorImplementations/
@@ -286,7 +286,7 @@ D:/QReal/qreal/plugins/robots/robotsInterpreter/icons/preferences/
 D:/QReal/qreal/plugins/sbt/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/sbt/sbtGenerator/
-	testing methods: 13	documented: 16
+	testing methods: 13	documented: 10
 D:/QReal/qreal/plugins/sbt/sbtGenerator/template/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/sbt/sbtReportsEditor/
@@ -294,7 +294,7 @@ D:/QReal/qreal/plugins/sbt/sbtReportsEditor/
 D:/QReal/qreal/plugins/testEditor/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/testInvocation/
-	testing methods: 7	documented: 1
+	testing methods: 7	documented: 0
 D:/QReal/qreal/plugins/ubiq/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/ubiq/ubiqEditor/
@@ -306,7 +306,7 @@ D:/QReal/qreal/plugins/ubiq/ubiqEditor/images/iconset1/
 D:/QReal/qreal/plugins/ubiq/ubiqEditor/images/iconset1/images/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/ubiq/ubiqGenerator/
-	testing methods: 38	documented: 53
+	testing methods: 38	documented: 38
 D:/QReal/qreal/plugins/ubiq/ubiqGenerator/templates/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/ubiq/ubiqGenerator/templates/utils/
@@ -352,7 +352,7 @@ D:/QReal/qreal/plugins/umlUseCaseDiagram/
 D:/QReal/qreal/plugins/umlUseCaseDiagram/editor/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/visualInterpreter/
-	testing methods: 58	documented: 68
+	testing methods: 58	documented: 44
 D:/QReal/qreal/plugins/visualInterpreter/icons/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/plugins/visualInterpreter/icons/preferences/
@@ -379,9 +379,9 @@ D:/QReal/qreal/qrgui/icons/
 D:/QReal/qreal/qrgui/icons/preferences/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/qrgui/mainwindow/
-	testing methods: 315	documented: 100
+	testing methods: 315	documented: 42
 D:/QReal/qreal/qrgui/mainwindow/projectManager/
-	testing methods: 41	documented: 4
+	testing methods: 41	documented: 0
 D:/QReal/qreal/qrgui/mainwindow/shapeEdit/
 	testing methods: 210	documented: 0
 D:/QReal/qreal/qrgui/models/
@@ -391,9 +391,9 @@ D:/QReal/qreal/qrgui/models/details/
 D:/QReal/qreal/qrgui/models/details/modelsImplementation/
 	testing methods: 43	documented: 2
 D:/QReal/qreal/qrgui/pluginManager/
-	testing methods: 51	documented: 7
+	testing methods: 51	documented: 0
 D:/QReal/qreal/qrgui/textEditor/
-	testing methods: 12	documented: 1
+	testing methods: 12	documented: 0
 ~D:/QReal/qreal/qrgui/thirdparty/
 D:/QReal/qreal/qrgui/toolPluginInterface/
 	testing methods: 0	documented: 0
@@ -414,17 +414,17 @@ D:/QReal/qreal/qrgui/umllib/embedded/linkers/
 D:/QReal/qreal/qrgui/umllib/icons/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/qrgui/umllib/private/
-	testing methods: 71	documented: 34
+	testing methods: 71	documented: 20
 D:/QReal/qreal/qrgui/unitTests/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/qrgui/view/
-	testing methods: 160	documented: 21
+	testing methods: 160	documented: 18
 D:/QReal/qreal/qrgui/view/gestures/
 	testing methods: 59	documented: 0
 D:/QReal/qreal/qrkernel/
-	testing methods: 52	documented: 75
+	testing methods: 52	documented: 15
 D:/QReal/qreal/qrkernel/exception/
-	testing methods: 2	documented: 6
+	testing methods: 2	documented: 1
 D:/QReal/qreal/qrmc/
 	testing methods: 82	documented: 0
 D:/QReal/qreal/qrmc/classes/
@@ -438,9 +438,9 @@ D:/QReal/qreal/qrmc/utils/
 D:/QReal/qreal/qrrepo/
 	testing methods: 4	documented: 0
 D:/QReal/qreal/qrrepo/private/
-	testing methods: 80	documented: 20
+	testing methods: 80	documented: 2
 D:/QReal/qreal/qrrepo/private/classes/
-	testing methods: 30	documented: 4
+	testing methods: 30	documented: 1
 D:/QReal/qreal/qrtest/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/qrtest/editorPluginTestingFramework/
@@ -477,17 +477,17 @@ D:/QReal/qreal/qrtest/unitTests/visualDebugSupportPluginTests/interpreter/
 	testing methods: 0	documented: 0
 ~D:/QReal/qreal/qrutils/metamodelGeneratorSupport.h
 D:/QReal/qreal/qrutils/
-	testing methods: 11	documented: 10
+	testing methods: 11	documented: 1
 D:/QReal/qreal/qrutils/expressionsParser/
 	testing methods: 50	documented: 0
 D:/QReal/qreal/qrutils/generator/
-	testing methods: 9	documented: 20
+	testing methods: 9	documented: 9
 D:/QReal/qreal/qrutils/graphicsUtils/
 	testing methods: 90	documented: 0
 D:/QReal/qreal/qrutils/graphTransformation/
-	testing methods: 31	documented: 36
+	testing methods: 31	documented: 16
 D:/QReal/qreal/qrutils/invocationUtils/
-	testing methods: 23	documented: 42
+	testing methods: 23	documented: 11
 D:/QReal/qreal/qrutils/invocationUtils/private/
 	testing methods: 0	documented: 0
 D:/QReal/qreal/qrxc/

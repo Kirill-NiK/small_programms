@@ -3,7 +3,7 @@ D:/QReal/saha/qreal/
 		testing: 2521
 		virtual: 788
 		total: 3309
-		documented: 213
+		documented: 144
 
 
 ignored pathes:
@@ -195,9 +195,9 @@ D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/
 D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/blocks/
 	testing methods: 63	documented: 0
 D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/d2RobotModel/
-	testing methods: 154	documented: 33
+	testing methods: 154	documented: 32
 D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/robotCommunication/
-	testing methods: 59	documented: 8
+	testing methods: 59	documented: 4
 D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/
 	testing methods: 30	documented: 4
 D:/QReal/saha/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/brickImplementations/
@@ -226,7 +226,7 @@ D:/QReal/saha/qreal/plugins/ubiq/ubiqEditor/images/iconset1/
 D:/QReal/saha/qreal/plugins/ubiq/ubiqEditor/images/iconset1/images/
 	testing methods: 0	documented: 0
 D:/QReal/saha/qreal/plugins/ubiq/ubiqGenerator/
-	testing methods: 50	documented: 78
+	testing methods: 50	documented: 49
 D:/QReal/saha/qreal/plugins/ubiq/ubiqGenerator/templates/
 	testing methods: 0	documented: 0
 D:/QReal/saha/qreal/plugins/ubiq/ubiqGenerator/templates/utils/
@@ -297,7 +297,7 @@ D:/QReal/saha/qreal/qrgui/generators/nxt-tools/linux/
 D:/QReal/saha/qreal/qrgui/generators/nxt-tools/windows/
 	testing methods: 0	documented: 0
 D:/QReal/saha/qreal/qrgui/generators/nxtOSEK/
-	testing methods: 34	documented: 11
+	testing methods: 34	documented: 6
 D:/QReal/saha/qreal/qrgui/generators/nxtOSEK/templates/
 	testing methods: 0	documented: 0
 D:/QReal/saha/qreal/qrgui/generators/xmi/
@@ -311,7 +311,7 @@ D:/QReal/saha/qreal/qrgui/interpreters/
 D:/QReal/saha/qreal/qrgui/interpreters/visualDebugger/
 	testing methods: 54	documented: 0
 D:/QReal/saha/qreal/qrgui/mainwindow/
-	testing methods: 234	documented: 24
+	testing methods: 234	documented: 7
 D:/QReal/saha/qreal/qrgui/mainwindow/shapeEdit/
 	testing methods: 210	documented: 0
 D:/QReal/saha/qreal/qrgui/models/
@@ -327,7 +327,7 @@ D:/QReal/saha/qreal/qrgui/parsers/hascol/
 D:/QReal/saha/qreal/qrgui/parsers/xml/
 	testing methods: 54	documented: 0
 D:/QReal/saha/qreal/qrgui/pluginManager/
-	testing methods: 44	documented: 4
+	testing methods: 44	documented: 0
 D:/QReal/saha/qreal/qrgui/textEditor/
 	testing methods: 10	documented: 0
 ~D:/QReal/saha/qreal/qrgui/thirdparty/
@@ -338,7 +338,7 @@ D:/QReal/saha/qreal/qrgui/toolPluginInterface/usedInterfaces/
 D:/QReal/saha/qreal/qrgui/toolPluginInterface/usedInterfaces/details/
 	testing methods: 0	documented: 0
 D:/QReal/saha/qreal/qrgui/umllib/
-	testing methods: 181	documented: 24
+	testing methods: 181	documented: 22
 D:/QReal/saha/qreal/qrgui/umllib/assistants/
 	testing methods: 0	documented: 0
 D:/QReal/saha/qreal/qrgui/umllib/assistants/edges/
@@ -348,11 +348,11 @@ D:/QReal/saha/qreal/qrgui/umllib/embedded/
 D:/QReal/saha/qreal/qrgui/umllib/embedded/linkers/
 	testing methods: 12	documented: 0
 D:/QReal/saha/qreal/qrgui/view/
-	testing methods: 129	documented: 12
+	testing methods: 129	documented: 11
 D:/QReal/saha/qreal/qrgui/view/gestures/
 	testing methods: 54	documented: 0
 D:/QReal/saha/qreal/qrkernel/
-	testing methods: 50	documented: 1
+	testing methods: 50	documented: 0
 D:/QReal/saha/qreal/qrkernel/exception/
 	testing methods: 2	documented: 0
 D:/QReal/saha/qreal/qrmc/
@@ -368,9 +368,9 @@ D:/QReal/saha/qreal/qrmc/utils/
 D:/QReal/saha/qreal/qrrepo/
 	testing methods: 4	documented: 0
 D:/QReal/saha/qreal/qrrepo/private/
-	testing methods: 67	documented: 4
+	testing methods: 67	documented: 0
 D:/QReal/saha/qreal/qrrepo/private/classes/
-	testing methods: 25	documented: 1
+	testing methods: 25	documented: 0
 D:/QReal/saha/qreal/qrutils/
 	testing methods: 7	documented: 0
 D:/QReal/saha/qreal/qrutils/expressionsParser/

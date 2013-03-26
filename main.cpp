@@ -17,9 +17,10 @@ QStringList testpathes;
 
 QString commentFreeString(QString str)
 {
-	int docCount = str.count(QString("/// ")); // this counting is used because we have style guide
+	// this counting is used and accurate because we have style guide
+	int docCount = str.count(QRegExp("\\n[^/\\n]*\\n[^\\n]/// [^\\n]*\\n[^/\\(]*\\("));
 	docCount += str.count(QString("/** "));
-	docCount += str.count(QString("//! "));
+	docCount += str.count(QRegExp("\\n[^/\\n]*\\n[^\\n]//! [^\\n]*\\n[^/\\(]*\\("));
 	totalDocumentedCount += docCount;
 	QRegExp reg = QRegExp("/\\*.*\\*/");
 	reg.setMinimal(true);
@@ -90,7 +91,8 @@ void totalFunctionCount(QString dir)
 	}
 	totalTestingFunCount += localCount;
 	QStringList dirList = directory.entryList(QDir::AllDirs | QDir::NoDotAndDotDot);
-	output.append(dir + "\n\ttesting methods: " + QString::number(localCount) + "\tdocumented: " + QString::number(totalDocumentedCount - oldDocumentedCount) + "\n");
+	output.append(dir + "\n\ttesting methods: " + QString::number(localCount) +
+			"\tdocumented: " + QString::number(totalDocumentedCount - oldDocumentedCount) + "\n");
 	for (int i = 0; i < dirList.length(); ++i)
 	{
 		bool isMatch = false;
