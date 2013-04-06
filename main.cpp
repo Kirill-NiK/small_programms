@@ -199,7 +199,6 @@ int main(int argc, char *argv[])
 	{
 		totalFunctionCount(testpathes.at(j), false, NULL);
 		dirTree->calculateTotalData();
-		DirNode *node = dirTree->getRoot();
 		fillLog();
 		outputStats.prepend(testpathes.at(j) + "\n");
 		QFile outputFile("log" + QString::number(j) + ".txt");

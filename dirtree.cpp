@@ -61,6 +61,7 @@ DirNode *DirTree::createNode(QString name, int localTesting, int localDocumented
 void DirTree::calculateTotalData()
 {
 	calculateTotalDataForNode(root);
+	root = root;
 }
 
 void DirTree::calculateTotalDataForNode(DirNode *node)
