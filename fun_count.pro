@@ -1,3 +1,9 @@
 SOURCES += \
-    main.cpp
+    main.cpp \
+    dirtree.cpp
+
+HEADERS += \
+    dirtree.h
+
+
 

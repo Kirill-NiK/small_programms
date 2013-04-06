@@ -6,6 +6,8 @@
 #include <QtDebug>
 #include <QTime>
 
+#include "dirtree.h"
+
 unsigned int totalTestingFunCount = 0;
 unsigned int totalVirtualCount = 0;
 unsigned int totalDocumentedCount = 0;
@@ -14,6 +16,7 @@ QStringList ignoreFiles;
 QString output;
 QString outputStats;
 QStringList testpathes;
+DirTree *dirTree = NULL;
 
 QString commentFreeString(QString str)
 {
@@ -47,7 +50,7 @@ bool isIgnored(QString fileName)
 		QRegExp exReg(".*" + ignoreFiles.at(j) + ".*");
 		if (exReg.exactMatch(fileName)) {
 			isMatch = true;
-			output.append("~" + fileName + "\n");
+			// output.append("~" + fileName + "\n");  это в моем новом логе пока не отображается. так как файл. а не папка
 			break;
 		}
 	}
@@ -60,6 +63,7 @@ unsigned int localFunctionCount(QString path, QString fileName)
 	// the second condition need for events when .h is interface
 	if (!file.open(QIODevice::ReadOnly | QIODevice::Text) || !QFile::exists(path + fileName + ".cpp")
 		|| isIgnored(path + fileName + ".h")) {
+		// qDebug("We have problems files - 0");
 		return 0;
 	}
 
@@ -74,41 +78,61 @@ unsigned int localFunctionCount(QString path, QString fileName)
 	return localCount;
 }
 
-// without interface methods
-void totalFunctionCount(QString dir)
+
+void dirTreeInitialization(QString name, int localTesting, int localDocumented, int localTests = 0, bool isIgnored = false)
 {
+	dirTree = new DirTree(name, localTesting, localDocumented, localTests, isIgnored);
+}
+
+// without interface methods
+// считаем, что первый путь не игнорится. никогда. добавить в рид.ми.
+void totalFunctionCount(QString dir, bool dirIsIgnored, DirNode *parent)
+{
+	DirNode *node;
 	QString filter = "*.h";
 	QDir directory(dir);
 	QStringList fileList = directory.entryList(QDir::Files);
 	QStringList filterFileList = fileList.filter(QRegExp(filter, Qt::CaseInsensitive, QRegExp::Wildcard));
+	QStringList dirList = directory.entryList(QDir::AllDirs | QDir::NoDotAndDotDot);
 	unsigned int localCount = 0;
 	unsigned int oldDocumentedCount = totalDocumentedCount;
-	for (int i = 0; i < filterFileList.length(); ++i)
-	{
-		QString file = filterFileList.at(i);
-		file.chop(2);
-		localCount += localFunctionCount(dir, file);
-	}
-	totalTestingFunCount += localCount;
-	QStringList dirList = directory.entryList(QDir::AllDirs | QDir::NoDotAndDotDot);
-	output.append(dir + "\n\ttesting methods: " + QString::number(localCount) +
-			"\tdocumented: " + QString::number(totalDocumentedCount - oldDocumentedCount) + "\n");
-	for (int i = 0; i < dirList.length(); ++i)
-	{
-		bool isMatch = false;
-		for (int j = 0; j < ignoreFiles.length(); ++j)
+
+	if (!parent || !dirIsIgnored) {
+		for (int i = 0; i < filterFileList.length(); ++i)
 		{
-			QRegExp exReg(".*" + ignoreFiles.at(j) + ".*");
-			if (exReg.exactMatch(dir + dirList.at(i) + "/")) {
-				isMatch = true;
-				output.append("~" + dir + dirList.at(i) + "/\n");
-				break;
+			QString file = filterFileList.at(i);
+			file.chop(2);
+			localCount += localFunctionCount(dir, file);
+		}
+		totalTestingFunCount += localCount;
+
+		if (!dirTree) {
+			dirTreeInitialization(dir, localCount, totalDocumentedCount - oldDocumentedCount);
+			node = dirTree->getRoot();
+		} else {
+			node = DirTree::createNode(dir, localCount, totalDocumentedCount - oldDocumentedCount);
+			dirTree->addChild(node, parent);
+		}
+		for (int i = 0; i < dirList.length(); ++i)
+		{
+			bool followDirIsIgnored = false;
+			for (int j = 0; j < ignoreFiles.length(); ++j)
+			{
+				QRegExp exReg(".*" + ignoreFiles.at(j) + ".*");
+				if (exReg.exactMatch(dir + dirList.at(i) + "/")) {
+					followDirIsIgnored = true;
+					break;
+				}
 			}
+			totalFunctionCount(dir + dirList.at(i) + "/", followDirIsIgnored, node);
 		}
-		if (isMatch) {
-			continue;
+	} else {
+		node = DirTree::createNode(dir, 0, 0, 0, true);
+		dirTree->addChild(node, parent);
+		for (int i = 0; i < dirList.length(); ++i)
+		{
+			totalFunctionCount(dir + dirList.at(i) + "/", true, node);
 		}
-		totalFunctionCount(dir + dirList.at(i) + "/");
 	}
 }
 
@@ -116,6 +140,7 @@ void fillIgnoredFiles()
 {
 	QFile file("~testignore");
 	if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+		qDebug("We have problems files - 1");
 		return;
 	}
 
@@ -132,6 +157,7 @@ void fillPathesForTest()
 {
 	QFile file("testpathes");
 	if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+		qDebug("We have problems files - 2");
 		return;
 	}
 
@@ -146,6 +172,15 @@ void fillPathesForTest()
 
 void fillLog()
 {
+	// пройтись по всему дереву типа name: директория + 4 числа вывести:
+/*	output.append(dir + "\n\tin this folder:\ttesting methods: " + QString::number() +
+			"\tdocumented: " + QString::number() +
+			// тестов
+			"\n\tin subfolders:\ttesting methods: " + QString::number() +
+			"\tdocumented: " + QString::number() + "\n");
+			// + тестов*/
+	//output.append("~" + dir + dirList.at(i) + "/\n"); // надо тут тоже изменить. (в лог занести)
+
 	output.prepend("\nignored pathes:\n" + ignoreFiles.join("\n") + "\n----------\n\n");
 	outputStats.append("\n\t\ttesting: " + QString::number(totalTestingFunCount) + "\n");
 	outputStats.append("\t\tvirtual: " + QString::number(totalVirtualCount) + "\n");
@@ -162,11 +197,14 @@ int main(int argc, char *argv[])
 	fillPathesForTest();
 	for (int j = 0; j < testpathes.length(); ++j)
 	{
-		totalFunctionCount(testpathes.at(j));
+		totalFunctionCount(testpathes.at(j), false, NULL);
+		dirTree->calculateTotalData();
+		DirNode *node = dirTree->getRoot();
 		fillLog();
 		outputStats.prepend(testpathes.at(j) + "\n");
 		QFile outputFile("log" + QString::number(j) + ".txt");
 		if (!outputFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
+			qDebug("We have problems files - 3");
 			return 0;
 		}
 		QTextStream out(&outputFile);
@@ -174,6 +212,8 @@ int main(int argc, char *argv[])
 		totalTestingFunCount = 0;
 		totalVirtualCount = 0;
 		totalDocumentedCount = 0;
+		dirTree->~DirTree();
+		dirTree = NULL;
 		outputStats.clear();
 		output.clear();
 		outputFile.close();
