@@ -1,8 +1,8 @@
 #include "dirtree.h"
 
-DirTree::DirTree(QString name, int localTesting, int localDocumented, int localTests, bool isIgnored)
+DirTree::DirTree(QString name, int localTesting, int localDocumented, int localTests, bool isIgnored, bgcolors color)
 {
-	root = DirTree::createNode(name, localTesting, localDocumented, localTests, isIgnored);
+	root = DirTree::createNode(name, localTesting, localDocumented, localTests, isIgnored, color);
 }
 
 void DirTree::addChild(DirNode *child, DirNode *parent)
@@ -19,7 +19,7 @@ void DirTree::addChild(DirNode *child, DirNode *parent)
 	child->parentNode = parent;
 }
 
-DirNode * DirTree::getRoot()
+DirNode * DirTree::getRoot() const
 {
 	return root;
 }
@@ -41,7 +41,7 @@ void DirTree::delNode(DirNode *node)
 	delete node;
 }
 
-DirNode *DirTree::createNode(QString name, int localTesting, int localDocumented, int localTests, bool isIgnored)
+DirNode *DirTree::createNode(QString name, int localTesting, int localDocumented, int localTests, bool isIgnored, bgcolors color)
 {
 	DirNode *node = new DirNode;
 	node->name = name;
@@ -55,13 +55,13 @@ DirNode *DirTree::createNode(QString name, int localTesting, int localDocumented
 	node->totalTests = 0;
 	node->localTests = localTests;
 	node->isIgnored = isIgnored;
+	node->color = color;
 	return node;
 }
 
 void DirTree::calculateTotalData()
 {
 	calculateTotalDataForNode(root);
-	root = root;
 }
 
 void DirTree::calculateTotalDataForNode(DirNode *node)

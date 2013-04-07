@@ -12,3 +12,1499 @@ D:/QReal/qreal/qrutils/metamodelGeneratorSupport.h
 qrgui/dialogs
 ----------
 
+D:/QReal/qreal/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 3164	documented: 359	tests: 0
+
+D:/QReal/qreal/bin/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/bin/plugins/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+~D:/QReal/qreal/bin/thirdparty/
+D:/QReal/qreal/bin/unittests/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/bin/unsaved/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/docs/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/installer/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 1063	documented: 201	tests: 0
+
+D:/QReal/qreal/plugins/additionsEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ains/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 11	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ains/editors/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ains/editors/ainsEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ains/editors/ainsEditor/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ains/editors/databaseEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ains/editors/databaseEditor/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ains/editors/usecaseDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ains/editors/usecaseDiagram/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ains/generators/
+
+	in this folder:	testing methods: 2	documented: 0	tests: 0
+	with subfolders:	testing methods: 11	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ains/generators/databaseSchemeGenerator/
+
+	in this folder:	testing methods: 9	documented: 0	tests: 0
+	with subfolders:	testing methods: 9	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/android/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/android/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 82	documented: 38	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 1	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/editor/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/editor/debug/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/editor/generated/
+
+	in this folder:	testing methods: 1	documented: 0	tests: 0
+	with subfolders:	testing methods: 1	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/editor/generated/shapes/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/editor/release/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/visualDebugSupport/
+
+	in this folder:	testing methods: 25	documented: 17	tests: 0
+	with subfolders:	testing methods: 81	documented: 38	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/visualDebugSupport/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/visualDebugSupport/debug/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/visualDebugSupport/icons/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/visualDebugSupport/icons/preferences/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/visualDebugSupport/interpreter/
+
+	in this folder:	testing methods: 56	documented: 21	tests: 0
+	with subfolders:	testing methods: 56	documented: 21	tests: 0
+
+D:/QReal/qreal/plugins/blockDiagram/visualDebugSupport/release/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/bpel/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/bpel/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/commonMetamodels/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/dragonAtom/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/dragonAtom/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/dragonDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/dragonDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/editorsSdk/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/exterminatus/
+
+	in this folder:	testing methods: 2	documented: 1	tests: 0
+	with subfolders:	testing methods: 2	documented: 1	tests: 0
+
+D:/QReal/qreal/plugins/exterminatus/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/exterminatus/debug/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/exterminatus/release/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/hascol/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 34	documented: 5	tests: 0
+
+D:/QReal/qreal/plugins/hascol/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/hascol/hascolSupport/
+
+	in this folder:	testing methods: 34	documented: 5	tests: 0
+	with subfolders:	testing methods: 34	documented: 5	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 93	documented: 5	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 1	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/editor/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/editor/debug/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/editor/generated/
+
+	in this folder:	testing methods: 1	documented: 0	tests: 0
+	with subfolders:	testing methods: 1	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/editor/generated/shapes/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/editor/release/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/metaEditorSupport/
+
+	in this folder:	testing methods: 92	documented: 5	tests: 0
+	with subfolders:	testing methods: 92	documented: 5	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/metaEditorSupport/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/metaEditorSupport/debug/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/metaEditorSupport/icons/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/metaEditor/metaEditorSupport/release/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/network/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/network/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/orthodoxEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/parallel/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/parallel/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 93	documented: 8	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 1	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/editor/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/editor/debug/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/editor/generated/
+
+	in this folder:	testing methods: 1	documented: 0	tests: 0
+	with subfolders:	testing methods: 1	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/editor/generated/shapes/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/editor/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/editor/images/iconset1/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/editor/images/iconset1/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/editor/release/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/refactoringExamples/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/refactoringSupport/
+
+	in this folder:	testing methods: 92	documented: 8	tests: 0
+	with subfolders:	testing methods: 92	documented: 8	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/refactoringSupport/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/refactoringSupport/debug/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/refactoringSupport/icons/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/refactoringSupport/icons/preferences/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/refactoring/refactoringSupport/release/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/requirements/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/requirements/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 632	documented: 52	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/doc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/doc/html/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/doc/html/pics/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/doc/tex/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/generated/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/generated/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset1/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset1/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset2/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset2/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset3/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset3/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset4/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset4/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset5/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset5/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset6/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/images/iconset6/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/Container/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/Inheritance/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEditorDiagramNode/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntity_Attribute/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityAssociation/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityEdge/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityEnum/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityImport/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityNode/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityPossibleEdge/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetaEntityValue/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/graphical/MetaEditor/MetaEditor/MetamodelDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/Container/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/Inheritance/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEditorDiagramNode/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntity_Attribute/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityAssociation/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityEdge/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityEnum/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityImport/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityNode/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityPossibleEdge/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetaEntityValue/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/MetaEditor/MetaEditor/MetamodelDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/ROOT_ID/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/ROOT_ID/ROOT_ID/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/editor/metamodel/save/tree/logical/ROOT_ID/ROOT_ID/ROOT_ID/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/examples/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsGenerator/
+
+	in this folder:	testing methods: 6	documented: 3	tests: 0
+	with subfolders:	testing methods: 93	documented: 5	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsGenerator/nxt-tools/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsGenerator/nxt-tools/linux/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsGenerator/nxt-tools/windows/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsGenerator/nxtOSEK/
+
+	in this folder:	testing methods: 47	documented: 2	tests: 0
+	with subfolders:	testing methods: 87	documented: 2	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsGenerator/nxtOSEK/generators/
+
+	in this folder:	testing methods: 15	documented: 0	tests: 0
+	with subfolders:	testing methods: 40	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsGenerator/nxtOSEK/generators/simpleElements/
+
+	in this folder:	testing methods: 25	documented: 0	tests: 0
+	with subfolders:	testing methods: 25	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsGenerator/nxtOSEK/templates/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsGenerator/nxtOSEK/templates/balancer/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/
+
+	in this folder:	testing methods: 60	documented: 6	tests: 0
+	with subfolders:	testing methods: 539	documented: 47	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/details/
+
+	in this folder:	testing methods: 39	documented: 0	tests: 0
+	with subfolders:	testing methods: 479	documented: 41	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/details/blocks/
+
+	in this folder:	testing methods: 69	documented: 0	tests: 0
+	with subfolders:	testing methods: 69	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/details/d2RobotModel/
+
+	in this folder:	testing methods: 177	documented: 33	tests: 0
+	with subfolders:	testing methods: 177	documented: 33	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/details/robotCommunication/
+
+	in this folder:	testing methods: 70	documented: 5	tests: 0
+	with subfolders:	testing methods: 70	documented: 5	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/
+
+	in this folder:	testing methods: 32	documented: 2	tests: 0
+	with subfolders:	testing methods: 74	documented: 2	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/brickImplementations/
+
+	in this folder:	testing methods: 4	documented: 0	tests: 0
+	with subfolders:	testing methods: 4	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/motorImplementations/
+
+	in this folder:	testing methods: 7	documented: 0	tests: 0
+	with subfolders:	testing methods: 7	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/details/robotImplementations/sensorImplementations/
+
+	in this folder:	testing methods: 31	documented: 0	tests: 0
+	with subfolders:	testing methods: 31	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/details/robotParts/
+
+	in this folder:	testing methods: 50	documented: 1	tests: 0
+	with subfolders:	testing methods: 50	documented: 1	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/icons/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/robots/robotsInterpreter/icons/preferences/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+~D:/QReal/qreal/plugins/robots/thirdparty/
+~D:/QReal/qreal/plugins/robots/thirdparty/qextserialport/
+~D:/QReal/qreal/plugins/robots/thirdparty/qextserialport/doc/
+~D:/QReal/qreal/plugins/robots/thirdparty/qextserialport/examples/
+~D:/QReal/qreal/plugins/robots/thirdparty/qextserialport/examples/enumerator/
+~D:/QReal/qreal/plugins/robots/thirdparty/qextserialport/examples/event/
+~D:/QReal/qreal/plugins/robots/thirdparty/qextserialport/examples/qespta/
+~D:/QReal/qreal/plugins/robots/thirdparty/qextserialport/src/
+D:/QReal/qreal/plugins/sbt/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 13	documented: 10	tests: 0
+
+D:/QReal/qreal/plugins/sbt/sbtGenerator/
+
+	in this folder:	testing methods: 13	documented: 10	tests: 0
+	with subfolders:	testing methods: 13	documented: 10	tests: 0
+
+D:/QReal/qreal/plugins/sbt/sbtGenerator/template/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/sbt/sbtReportsEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/testEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/testInvocation/
+
+	in this folder:	testing methods: 7	documented: 0	tests: 0
+	with subfolders:	testing methods: 7	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ubiq/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 38	documented: 38	tests: 0
+
+D:/QReal/qreal/plugins/ubiq/ubiqEditor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ubiq/ubiqEditor/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ubiq/ubiqEditor/images/iconset1/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ubiq/ubiqEditor/images/iconset1/images/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ubiq/ubiqGenerator/
+
+	in this folder:	testing methods: 38	documented: 38	tests: 0
+	with subfolders:	testing methods: 38	documented: 38	tests: 0
+
+D:/QReal/qreal/plugins/ubiq/ubiqGenerator/templates/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/ubiq/ubiqGenerator/templates/utils/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlActivityDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlActivityDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlClassDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlClassDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlCommunicationDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlCommunicationDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlComponentDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlComponentDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlDeploymentDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlDeploymentDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlPackageDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlPackageDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlSequenceDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlSequenceDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlStateMachinesDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlStateMachinesDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlTimingDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlTimingDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlUseCaseDiagram/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/umlUseCaseDiagram/editor/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/visualInterpreter/
+
+	in this folder:	testing methods: 58	documented: 44	tests: 0
+	with subfolders:	testing methods: 58	documented: 44	tests: 0
+
+D:/QReal/qreal/plugins/visualInterpreter/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/visualInterpreter/debug/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/visualInterpreter/icons/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/visualInterpreter/icons/preferences/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/plugins/visualInterpreter/release/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 1404	documented: 99	tests: 0
+
+D:/QReal/qreal/qrgui/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/.obj/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/.ui/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+~D:/QReal/qreal/qrgui/dialogs/
+~D:/QReal/qreal/qrgui/dialogs/gesturesShow/
+~D:/QReal/qreal/qrgui/dialogs/preferencesPages/
+~D:/QReal/qreal/qrgui/dialogs/progressDialog/
+~D:/QReal/qreal/qrgui/dialogs/startDialog/
+D:/QReal/qreal/qrgui/dotFiles/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/editorPluginInterface/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/generators/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 100	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/generators/csharp/
+
+	in this folder:	testing methods: 32	documented: 0	tests: 0
+	with subfolders:	testing methods: 40	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/generators/csharp/algorithm/
+
+	in this folder:	testing methods: 8	documented: 0	tests: 0
+	with subfolders:	testing methods: 8	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/generators/java/
+
+	in this folder:	testing methods: 39	documented: 0	tests: 0
+	with subfolders:	testing methods: 39	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/generators/xmi/
+
+	in this folder:	testing methods: 21	documented: 0	tests: 0
+	with subfolders:	testing methods: 21	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/icons/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/icons/preferences/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/mainwindow/
+
+	in this folder:	testing methods: 265	documented: 37	tests: 0
+	with subfolders:	testing methods: 516	documented: 37	tests: 0
+
+D:/QReal/qreal/qrgui/mainwindow/projectManager/
+
+	in this folder:	testing methods: 41	documented: 0	tests: 0
+	with subfolders:	testing methods: 41	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/mainwindow/shapeEdit/
+
+	in this folder:	testing methods: 210	documented: 0	tests: 0
+	with subfolders:	testing methods: 210	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/models/
+
+	in this folder:	testing methods: 92	documented: 0	tests: 0
+	with subfolders:	testing methods: 184	documented: 3	tests: 0
+
+D:/QReal/qreal/qrgui/models/details/
+
+	in this folder:	testing methods: 49	documented: 1	tests: 0
+	with subfolders:	testing methods: 92	documented: 3	tests: 0
+
+D:/QReal/qreal/qrgui/models/details/modelsImplementation/
+
+	in this folder:	testing methods: 43	documented: 2	tests: 0
+	with subfolders:	testing methods: 43	documented: 2	tests: 0
+
+D:/QReal/qreal/qrgui/pluginManager/
+
+	in this folder:	testing methods: 51	documented: 0	tests: 0
+	with subfolders:	testing methods: 51	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/textEditor/
+
+	in this folder:	testing methods: 12	documented: 0	tests: 0
+	with subfolders:	testing methods: 12	documented: 0	tests: 0
+
+~D:/QReal/qreal/qrgui/thirdparty/
+~D:/QReal/qreal/qrgui/thirdparty/qtpropertybrowser/
+~D:/QReal/qreal/qrgui/thirdparty/qtpropertybrowser/buildlib/
+~D:/QReal/qreal/qrgui/thirdparty/qtpropertybrowser/doc/
+~D:/QReal/qreal/qrgui/thirdparty/qtpropertybrowser/doc/html/
+~D:/QReal/qreal/qrgui/thirdparty/qtpropertybrowser/doc/html/images/
+~D:/QReal/qreal/qrgui/thirdparty/qtpropertybrowser/doc/images/
+~D:/QReal/qreal/qrgui/thirdparty/qtpropertybrowser/src/
+~D:/QReal/qreal/qrgui/thirdparty/qtpropertybrowser/src/images/
+D:/QReal/qreal/qrgui/toolPluginInterface/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/toolPluginInterface/usedInterfaces/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/toolPluginInterface/usedInterfaces/details/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/umllib/
+
+	in this folder:	testing methods: 215	documented: 21	tests: 0
+	with subfolders:	testing methods: 322	documented: 41	tests: 0
+
+D:/QReal/qreal/qrgui/umllib/assistants/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 23	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/umllib/assistants/edges/
+
+	in this folder:	testing methods: 23	documented: 0	tests: 0
+	with subfolders:	testing methods: 23	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/umllib/embedded/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 13	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/umllib/embedded/linkers/
+
+	in this folder:	testing methods: 13	documented: 0	tests: 0
+	with subfolders:	testing methods: 13	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/umllib/icons/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/umllib/private/
+
+	in this folder:	testing methods: 71	documented: 20	tests: 0
+	with subfolders:	testing methods: 71	documented: 20	tests: 0
+
+D:/QReal/qreal/qrgui/unitTests/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrgui/view/
+
+	in this folder:	testing methods: 160	documented: 18	tests: 0
+	with subfolders:	testing methods: 219	documented: 18	tests: 0
+
+D:/QReal/qreal/qrgui/view/gestures/
+
+	in this folder:	testing methods: 59	documented: 0	tests: 0
+	with subfolders:	testing methods: 59	documented: 0	tests: 0
+
+D:/QReal/qreal/qrkernel/
+
+	in this folder:	testing methods: 52	documented: 15	tests: 0
+	with subfolders:	testing methods: 54	documented: 16	tests: 0
+
+D:/QReal/qreal/qrkernel/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrkernel/.obj/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrkernel/exception/
+
+	in this folder:	testing methods: 2	documented: 1	tests: 0
+	with subfolders:	testing methods: 2	documented: 1	tests: 0
+
+D:/QReal/qreal/qrmc/
+
+	in this folder:	testing methods: 82	documented: 0	tests: 0
+	with subfolders:	testing methods: 154	documented: 0	tests: 0
+
+D:/QReal/qreal/qrmc/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrmc/.obj/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrmc/classes/
+
+	in this folder:	testing methods: 70	documented: 0	tests: 0
+	with subfolders:	testing methods: 70	documented: 0	tests: 0
+
+D:/QReal/qreal/qrmc/plugins/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrmc/templates/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrmc/utils/
+
+	in this folder:	testing methods: 2	documented: 0	tests: 0
+	with subfolders:	testing methods: 2	documented: 0	tests: 0
+
+D:/QReal/qreal/qrrepo/
+
+	in this folder:	testing methods: 4	documented: 0	tests: 0
+	with subfolders:	testing methods: 114	documented: 3	tests: 0
+
+D:/QReal/qreal/qrrepo/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrrepo/.obj/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrrepo/private/
+
+	in this folder:	testing methods: 80	documented: 2	tests: 0
+	with subfolders:	testing methods: 110	documented: 3	tests: 0
+
+D:/QReal/qreal/qrrepo/private/classes/
+
+	in this folder:	testing methods: 30	documented: 1	tests: 0
+	with subfolders:	testing methods: 30	documented: 1	tests: 0
+
+D:/QReal/qreal/qrtest/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 3	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/editorPluginTestingFramework/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/editorPluginTestingFramework/uml/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/qrSources/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/qrSources/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/qrSources/.obj/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/qrSources/.ui/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 3	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/.obj/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/exampleTests/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/mocks/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/mocks/grgui/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/mocks/grgui/toolPluginInterface/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/mocks/grgui/toolPluginInterface/usedInterface/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/qrkernelTests/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/qrkernelTests/exception/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/qrrepoTests/
+
+	in this folder:	testing methods: 3	documented: 0	tests: 0
+	with subfolders:	testing methods: 3	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/qrutilsTests/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/qrutilsTests/expressionsParser/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/visualDebugSupportPluginTests/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrtest/unitTests/visualDebugSupportPluginTests/interpreter/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrutils/
+
+	in this folder:	testing methods: 11	documented: 1	tests: 0
+	with subfolders:	testing methods: 214	documented: 37	tests: 0
+
+D:/QReal/qreal/qrutils/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrutils/.obj/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrutils/expressionsParser/
+
+	in this folder:	testing methods: 50	documented: 0	tests: 0
+	with subfolders:	testing methods: 50	documented: 0	tests: 0
+
+D:/QReal/qreal/qrutils/generator/
+
+	in this folder:	testing methods: 9	documented: 9	tests: 0
+	with subfolders:	testing methods: 9	documented: 9	tests: 0
+
+D:/QReal/qreal/qrutils/graphicsUtils/
+
+	in this folder:	testing methods: 90	documented: 0	tests: 0
+	with subfolders:	testing methods: 90	documented: 0	tests: 0
+
+D:/QReal/qreal/qrutils/graphTransformation/
+
+	in this folder:	testing methods: 31	documented: 16	tests: 0
+	with subfolders:	testing methods: 31	documented: 16	tests: 0
+
+D:/QReal/qreal/qrutils/invocationUtils/
+
+	in this folder:	testing methods: 23	documented: 11	tests: 0
+	with subfolders:	testing methods: 23	documented: 11	tests: 0
+
+D:/QReal/qreal/qrutils/invocationUtils/private/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrxc/
+
+	in this folder:	testing methods: 158	documented: 3	tests: 0
+	with subfolders:	testing methods: 158	documented: 3	tests: 0
+
+D:/QReal/qreal/qrxc/.moc/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrxc/.obj/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+D:/QReal/qreal/qrxc/unitTests/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+
+~D:/QReal/qreal/thirdparty/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/.moc/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/.obj/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/gtest/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/gtest/include/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/gtest/include/gtest/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/gtest/include/gtest/internal/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/gtest/src/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/include/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/include/gmock/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/include/gmock/internal/
+~D:/QReal/qreal/thirdparty/gmock-1.6.0/src/
+D:/QReal/qreal/umlDocumentation/
+
+	in this folder:	testing methods: 0	documented: 0	tests: 0
+	with subfolders:	testing methods: 0	documented: 0	tests: 0
+

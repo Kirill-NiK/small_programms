@@ -2,7 +2,16 @@
 
 #include <QString>
 
-// подумать о том, надо ли поставить флаг типа путь загноренный или нет. где это лучше делать.
+enum bgcolors {
+	yellow = 0,
+	white,
+	pink,
+	orange,
+	light1,
+	light2,
+	light3
+};
+
 struct DirNode {
 	DirNode *parentNode;
 	DirNode *rightNode;
@@ -15,16 +24,17 @@ struct DirNode {
 	int localTests;
 	int totalTests;
 	bool isIgnored;
+	bgcolors color;
 };
 
 class DirTree
 {
 	public:
-		explicit DirTree(QString name, int localTesting, int localDocumented, int localTests = 0, bool isIgnored = false);
+		explicit DirTree(QString name, int localTesting, int localDocumented, int localTests = 0, bool isIgnored = false, bgcolors color = white);
 		virtual ~DirTree();
 		void addChild(DirNode *child, DirNode *parent);
-		DirNode *getRoot();
-		static DirNode *createNode(QString name, int localTesting, int localDocumented, int localTests = 0,  bool isIgnored = false);
+		DirNode *getRoot() const;
+		static DirNode *createNode(QString name, int localTesting, int localDocumented, int localTests = 0,  bool isIgnored = false, bgcolors color = white);
 		void calculateTotalData();
 
 	private:
