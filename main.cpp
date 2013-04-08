@@ -13,7 +13,6 @@ unsigned int totalVirtualCount = 0;
 unsigned int totalDocumentedCount = 0;
 
 QStringList ignoreFiles;
-//QString output; !!!
 QString outputStats = "";
 QStringList testpathes;
 DirTree *dirTree = NULL;
@@ -32,14 +31,31 @@ bgcolors nextColor(bgcolors color)
 QString commentFreeString(QString str)
 {
 	// this counting is used and accurate because we have style guide
-	int docCount = str.count(QRegExp("\\n[^/\\n]*\\n[^\\n]/// [^\\n]*\\n[^/\\(]*\\("));
-	docCount += str.count(QString("/** "));
-	docCount += str.count(QRegExp("\\n[^/\\n]*\\n[^\\n]//! [^\\n]*\\n[^/\\(]*\\("));
+	int docCount = str.count(QRegExp("///[^\\n]*\\n[^\\n/\\(]*\\("));
+	docCount += str.count(QString("/**"));
+	docCount += str.count(QRegExp("//![^\\n]*\\n[^/\\(]*\\("));
 	totalDocumentedCount += docCount;
 	QRegExp reg = QRegExp("/\\*.*\\*/");
 	reg.setMinimal(true);
 	str.remove(reg);
 	str.remove(QRegExp("//[^\\n$]*(\\n|$)"));
+	return str;
+}
+
+QString removeImplementations(QString str)
+{
+	int publics = str.count(QString("public:"));
+	int index = str.indexOf(QString("public:"));
+	str.remove(0, index + 2);
+	if (publics > 1) {
+		QRegExp reg("class.*public:");
+		reg.setMinimal(true);
+		str.remove(reg);
+	}
+	int count = str.count("{");
+	for (int i = 1; i <= count; ++i) {
+		str.remove(QRegExp("\\{[^\\{\\}]*\\}"));
+	}
 	return str;
 }
 
@@ -61,7 +77,6 @@ bool isIgnored(QString fileName)
 		QRegExp exReg(".*" + ignoreFiles.at(j) + ".*");
 		if (exReg.exactMatch(fileName)) {
 			isMatch = true;
-			// output.append("~" + fileName + "\n");  это в моем новом логе пока не отображается. так как файл. а не папка
 			break;
 		}
 	}
@@ -79,10 +94,12 @@ unsigned int localFunctionCount(QString path, QString fileName)
 
 	QString header = file.readAll();
 	header = commentFreeString(header);
+	header = removeImplementations(header);
 
-	QRegExp reg("[^A-Za-z0-9~_]~?[_A-Za-z0-9]+(\\s)*\\([^;]*;");
+	QRegExp functions("[^A-Za-z0-9~_]~?[_A-Za-z0-9]+(\\s)*\\([^\\)]*\\)");
+	QRegExp operators("[^A-Za-z0-9~_]operator[>!=<\\+\\*-\\|\\^&/]+(\\s)*\\([^\\)]*\\)");
 	unsigned int virtCount = virtualMethodsCount(header);
-	unsigned int localCount = header.count(reg) - virtCount - macrosesWithParameters(header);
+	unsigned int localCount = header.count(functions) + header.count(operators) - virtCount - macrosesWithParameters(header);
 
 	totalVirtualCount += virtCount;
 	return localCount;
@@ -177,32 +194,6 @@ void fillPathesForTest()
 	file.close();
 }
 
-/*void fillNodeLogTXT(DirNode *node)
-{
-	if (node->isIgnored) {
-		output.append("~" + node->name + "\n");
-	} else {
-		output.append(node->name + "\n\n\tin this folder:\ttesting methods: " + QString::number(node->localTesting) +
-				"\tdocumented: " + QString::number(node->localDocumented) +
-				"\ttests: " + QString::number(node->localTests) +
-				"\n\twith subfolders:\ttesting methods: " + QString::number(node->totalTesting) +
-				"\tdocumented: " + QString::number(node->totalDocumented) +
-				"\ttests: " + QString::number(node->totalTests) + "\n\n");
-	}
-	if (node->childNode) {
-		if (node->childNode->rightNode) {
-			DirNode *tmpNode = node->childNode;
-			fillNodeLogTXT(tmpNode);
-			while (tmpNode->rightNode != NULL) {
-				tmpNode = tmpNode->rightNode;
-				fillNodeLogTXT(tmpNode);
-			}
-		} else {
-			fillNodeLogTXT(node->childNode);
-		}
-	}
-} !!!*/
-
 void fillOutputStats(DirNode *node)
 {
 	QString name1 = "<tr bgcolor =" + colorToString(node->color) + "><td>";
@@ -258,12 +249,6 @@ void fillLog(QString fileName)
 	outputStats.append(frame1);
 	fillNodeLogHTML(dirTree->getRoot());
 	outputStats.append(frame2);
-	/*fillNodeLogTXT(dirTree->getRoot());
-	output.prepend("\nignored pathes:\n" + ignoreFiles.join("\n") + "\n----------\n\n");
-	outputStats.append("\n\t\ttesting: " + QString::number(totalTestingFunCount) + "\n");
-	outputStats.append("\t\tvirtual: " + QString::number(totalVirtualCount) + "\n");
-	outputStats.append("\t\ttotal: " + QString::number(totalVirtualCount + totalTestingFunCount) + "\n");
-	outputStats.append("\t\tdocumented: " + QString::number(totalDocumentedCount) + "\n\n"); !!!*/
 }
 
 int main(int argc, char *argv[])
@@ -277,8 +262,6 @@ int main(int argc, char *argv[])
 	{
 		totalFunctionCount(testpathes.at(j), false, NULL);
 		dirTree->calculateTotalData();
-		//fillLog(); !!!
-		//outputStats.prepend(testpathes.at(j) + "\n"); !!!
 		QString fileName = "log" + QString::number(j) + ".html";
 		QFile outputFile(fileName);
 		if (!outputFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
@@ -286,14 +269,13 @@ int main(int argc, char *argv[])
 		}
 		fillLog(fileName);
 		QTextStream out(&outputFile);
-		out << outputStats; //<< output; !!!
+		out << outputStats;
 		totalTestingFunCount = 0;
 		totalVirtualCount = 0;
 		totalDocumentedCount = 0;
 		dirTree->~DirTree();
 		dirTree = NULL;
 		outputStats.clear();
-		//output.clear(); !!!
 		outputFile.close();
 	}
 
