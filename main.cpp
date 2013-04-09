@@ -117,7 +117,7 @@ int localTests(QString fileName)
 		if (nameTestFile.compare("/" + fileName + ".h", Qt::CaseInsensitive) == 0) {
 			if (listOfTests.at(i).second.second) {
 				warning = QString("There are the different classes with the same name in this project (they have unitTests) and (only) test\'s counting is wrong!") +
-						QString(" Solution: the new requests in style guide about the test\'s formalization and refactoring this code.\n");
+						QString(" Solution: the new requests in style guide about the test\'s formalization and refactoring counting code.\n");
 			}
 			testCount = listOfTests.at(i).second.first;
 			listOfTests.removeAt(i);
