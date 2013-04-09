@@ -313,11 +313,6 @@ void fillListOfTests(QString dir)
 	}
 }
 
-/*bool pairCompare(const QPair<QString, int> &pair1, const QPair<QString, int> &pair2)
-{
-	return pair1.first < pair2.first;
-}*/
-
 void fillListOfTestDirects(QString dir)
 {
 	QDir directory(dir);
@@ -332,7 +327,6 @@ void fillListOfTestDirects(QString dir)
 			fillListOfTests(dir + subDir + "/");
 		}
 	}
-	//qSort(listOfTests.begin(), listOfTests.end(), pairCompare);
 }
 
 int main(int argc, char *argv[])
