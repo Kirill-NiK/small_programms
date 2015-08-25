@@ -37,6 +37,8 @@ script:
   - ls -A
   - echo 'Travis was here!!!' "$TRAVIS_COMMIT" "$TRAVIS_PULL_REQUEST" "$TRAVIS_BRANCH" >> Home.md
   - cat Home.md
+  - git config --global user.name "Kirill-NiK"
+  - git config --global user.email nikolskiy.kirill.andreevich@gmail.com
   - git commit Home.md -m «newStatistic»
   - git push
 notifications:
