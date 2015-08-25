@@ -3,7 +3,7 @@ compiler: gcc
 
 before_install:
   - git clone --depth=50 --branch=master git://github.com/Kirill-NiK/small_programms.wiki.git ./../small_programms.wiki/
-  - openssl aes-256-cbc -K $encrypted_299f80385780_key -iv $encrypted_299f80385780_iv -in abc.enc -out ~/.netrc -d
+  - openssl aes-256-cbc -K $encrypted_299f80385780_key -iv $encrypted_299f80385780_iv -in netrc.enc -out ~/.netrc -d
 
 env:
   - CONFIG=debug   PROJECT=fun_count   VERA=false  TESTS="./fun_count"
@@ -32,7 +32,6 @@ script:
   - if [ "$VERA" = "true" ]; then vera++ --error -p allRules --root buildScripts/vera++ <buildScripts/vera++/params; fi
   - qmake $PROJECT.pro CONFIG+=$CONFIG
   - make -j2
-  - cat ~/.netrc
   - ls -A
   - cd ./../small_programms.wiki
   - ls -A
@@ -40,7 +39,8 @@ script:
   - echo "$TRAVIS_COMMIT" >> Home.md
   - echo "$TRAVIS_PULL_REQUEST" >> Home.md
   - echo "$TRAVIS_BRANCH" >> Home.md
-  - git commit Home.md -m «new statistic»
+  - cat Home.md
+  - git commit Home.md -m «newStatistic»
   - git push
 notifications:
   email:
