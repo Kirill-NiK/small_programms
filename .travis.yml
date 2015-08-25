@@ -1,8 +1,14 @@
 language: cpp
 compiler: gcc
 
+before_install:
+  - git clone --depth=50 --branch=master https:github.com/Kirill-NiK/small_programms.wiki.git Kirill-NiK/small_programms.wiki/
+  - cd Kirill-NiK/small_programms
+  - openssl aes-256-cbc -K $encrypted_299f80385780_key -iv $encrypted_299f80385780_iv -in abc.enc -out ~/.netrc -d
+
 env:
   - CONFIG=debug   PROJECT=fun_count   VERA=false  TESTS="./fun_count"
+
 
 install:
   - if [ "$CXX" = "g++" ]; then sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y; fi
@@ -27,9 +33,16 @@ script:
   - if [ "$VERA" = "true" ]; then vera++ --error -p allRules --root buildScripts/vera++ <buildScripts/vera++/params; fi
   - qmake $PROJECT.pro CONFIG+=$CONFIG
   - make -j2
+  - cat ~/.netrc
   - ls -A
-  - cat log0.html
-
+  - cd ./../small_programms.wiki
+  - ls -A
+  - echo '\nTravis was here!!!\n' >> Home.md
+  - echo "$TRAVIS_COMMIT" >> Home.md
+  - echo "$TRAVIS_PULL_REQUEST" >> Home.md
+  - echo "$TRAVIS_BRANCH" >> Home.md
+  - git commit Home.md -m «new statistic»
+  - git push
 notifications:
   email:
     recipients:
