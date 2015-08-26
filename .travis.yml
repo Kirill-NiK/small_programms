@@ -35,11 +35,11 @@ script:
   - ls -A
   - cd ./../small_programms.wiki
   - ls -A
-  - echo 'Travis was here!!!' "$TRAVIS_COMMIT" "$TRAVIS_PULL_REQUEST" "$TRAVIS_BRANCH" >> Home.md
+  - echo -e 'Test coverage and method Information for QReal project\nCommit: ' "$TRAVIS_COMMIT" '\nPull request: ' "$TRAVIS_PULL_REQUEST" '\n Branch: ' "$TRAVIS_BRANCH" '\nTravis OS: ' "$TRAVIS_OS_NAME" >> Home.md
   - cat Home.md
   - git config --global user.name "Kirill-NiK"
   - git config --global user.email nikolskiy.kirill.andreevich@gmail.com
-  - git commit Home.md -m «newStatistic»
+  - git commit Home.md -m «the statistic for QReal master commit: "$TRAVIS_COMMIT"»
   - git push
 notifications:
   email:
