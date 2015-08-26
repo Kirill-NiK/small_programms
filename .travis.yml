@@ -35,7 +35,7 @@ script:
   - ls -A
   - cd ./../small_programms.wiki
   - ls -A
-  - echo -e 'Test coverage and method Information for QReal project\nCommit: ' "$TRAVIS_COMMIT" '\nPull request: ' "$TRAVIS_PULL_REQUEST" '\n Branch: ' "$TRAVIS_BRANCH" '\nTravis OS: ' "$TRAVIS_OS_NAME" >> Home.md
+  - echo -e 'Test coverage and method Information for QReal project\nCommit: ' "$TRAVIS_COMMIT" '\nPull request: ' "$TRAVIS_PULL_REQUEST" '\n Branch: ' "$TRAVIS_BRANCH" '\nTravis OS: ' "$TRAVIS_OS_NAME" > Home.md
   - cat Home.md
   - git config --global user.name "Kirill-NiK"
   - git config --global user.email nikolskiy.kirill.andreevich@gmail.com
