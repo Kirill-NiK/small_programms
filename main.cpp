@@ -331,6 +331,9 @@ void fillListOfTestDirects(QString dir)
 
 int main(int argc, char *argv[])
 {
+	Q_UNUSED(argc);
+	Q_UNUSED(argv);
+
 	QTime time;
 	time.start();
 
@@ -341,8 +344,10 @@ int main(int argc, char *argv[])
 		fillListOfTestDirects(testpathes.at(j) + "qrtest/unitTests/");
 		totalFunctionCount(testpathes.at(j), false, NULL);
 		dirTree->calculateTotalData();
-		QString fileName = "log" + QString::number(j) + ".html";
-		QFile outputFile(fileName);
+		QString fileName = "testCoverage";
+		QString num = (j) ? QString::number(j) : "";
+		QString extension = ".html";
+		QFile outputFile(fileName + num + extension);
 		if (!outputFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
 			return 0;
 		}
