@@ -3,6 +3,8 @@ compiler: gcc
 
 before_install:
   - git clone --depth=50 --branch=master http://github.com/Kirill-NiK/small_programms.wiki.git ./../small_programms.wiki/
+  - openssl aes-256-cbc -K $encrypted_299f80385780_key -iv $encrypted_299f80385780_iv -in lp.enc -out ~/.netrc -d
+
 env:
   - CONFIG=debug   PROJECT=fun_count   VERA=false  TESTS="./fun_count"
 
@@ -38,6 +40,7 @@ script:
   - git config --global user.name "Kirill-NiK"
   - git config --global user.email nikolskiy.kirill.andreevich@gmail.com
   - git commit Home.md -m «newStatistic»
+  - curl -n https://api.github.com/user
   - git push
 notifications:
   email:
