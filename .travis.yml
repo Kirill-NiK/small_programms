@@ -38,7 +38,7 @@ script:
   - ls -A
   - cd ./../small_programms.wiki
   - ls -A
-  - echo -e 'Test_coverage_and_method_Information_for_QReal_project\nCommit:' "$TRAVIS_COMMIT" '  \nPull_request:' "$TRAVIS_PULL_REQUEST" '\n\nBranch:' "$TRAVIS_BRANCH" '\r\n\nTravis_OS_name:' "$TRAVIS_OS_NAME" '\r\n\Commit_range:' "$TRAVIS_COMMIT_RANGE" '  \nTravis_repos_slug_(owner_name/repo_name):' "$TRAVIS_REPO_SLUG" > Home.md
+  - echo -e 'ZAHAR PRISHEL!!!!' > Home.md
   - echo $'hello\nworld' >> Home.md
   - cat Home.md
   - git config --global user.name "Kirill-NiK"
